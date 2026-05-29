@@ -4,7 +4,7 @@ var accountPwd = "2005"
 accountCity = "Balasore"
 let accountState;
 
-// accountId = 7   // in 'const' changes are not allowed
+// accountId = 7   // in 'const' changes are not allowed.
 accountEmail = "omm@gmail.com"
 accountPwd = "0506"
 accountCity = "bbsr"
