@@ -33,3 +33,28 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+// ###########################################
+
+// stack(Primitive) , Heap(non-primitive)
+
+let userName = "louhanrout"
+let anotheruserName = userName
+
+// console.log(userName);
+// console.log(anotheruserName);
+
+anotheruserName = "omm"
+// console.log(userName);
+// console.log(anotheruserName);
+
+let firstUser = {
+    email: "omm@google.com",
+    upi: "user@ybl"
+}
+let secondUser = firstUser
+console.log(firstUser);
+console.log(secondUser);
+firstUser.email = "louhan@gmail.com"
+console.log(firstUser);
+console.log(secondUser);
