@@ -5,12 +5,12 @@ const repo_cnt = 10
 
 console.log(`my name is ${name} and my repo count is ${repo_cnt}.`);
 
-const gameName = new String('Louhan')
+const gameName = new String('Louhan-kumar-rout')
 
-console.log(typeof gameName);
+// console.log(typeof gameName);
 
-console.log(gameName[0]);
-console.log(gameName.__proto__);
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
@@ -20,15 +20,16 @@ console.log(gameName.__proto__);
 // const newString = gameName.substring(0, 4)
 // console.log(newString);
 
-// const anotherString = gameName.slice(-8, 4)
+// const anotherString = gameName.slice(-8, 3)
 // console.log(anotherString);
 
-// const newStringOne = "   hitesh    "
+// const newStringOne = "   Louhan    "
 // console.log(newStringOne);
 // console.log(newStringOne.trim());
 
-// console.log(url.replace('%20', '-'))
+const url = "https://Louhan.com/Louhan%20rout"
+console.log(url.replace('%20', '-'))
 
-// console.log(url.includes('sundar'))
+console.log(url.includes('sundar'))
 
-// console.log(gameName.split('-'));
+console.log(gameName.split('-'));
